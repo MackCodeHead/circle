@@ -4,3 +4,6 @@
 # install any libraries or other programs you feel are necessary to help you
 # build your system. (Please list out these dependencies in the README).
 
+cd lineserver
+npm install
+

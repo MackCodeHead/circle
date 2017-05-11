@@ -15,6 +15,6 @@ db.on("error", console.error.bind(console, "MongoDB connection error:"));
 app.use('/', index);
 
 app.listen(3000, function () {
-  console.log('Circle Line Server app listening on port 3000');
+  console.log('Circle Line Server App listening on port 3000');
   initDbModule.initDb();
 });
